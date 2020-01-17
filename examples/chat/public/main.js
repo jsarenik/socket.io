@@ -229,7 +229,7 @@ $(function() {
   socket.on('login', (data) => {
     connected = true;
     // Display the welcome message
-    var message = "Welcome to Socket.IO Chat – ";
+    var message = "Welcome to ephemeral, low-threshold and encrypted chat – ";
     log(message, {
       prepend: true
     });
