@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: cyan;
+}
+
 html {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
