@@ -84,7 +84,7 @@ $(function() {
       .text(data.username)
       .css('color', getUsernameColor(data.username));
     const $messageBodyDiv = $('<span class="messageBody">')
-      .text(data.message);
+      .text(data.message).linkify();
 
     const typingClass = data.typing ? 'typing' : '';
     const $messageDiv = $('<li class="message"/>')
