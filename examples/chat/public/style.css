@@ -41,6 +41,7 @@ ul {
 }
 
 .page {
+  background-color: #1b1b1a;
   height: 100%;
   position: absolute;
   width: 100%;
@@ -95,10 +96,13 @@ ul {
 /* Font */
 
 .messages {
+  color: white;
   font-size: 150%;
 }
 
 .inputMessage {
+  background-color: #1b1b1a;
+  color: white;
   font-size: 100%;
 }
 
@@ -121,6 +125,19 @@ ul {
   margin: 0;
   overflow-y: scroll;
   padding: 10px 20px 10px 20px;
+}
+
+::-webkit-scrollbar {
+  background-color: #1f1f1e;
+  color: #d5cbb8;
+}
+
+::-webkit-scrollbar-corner {
+￼    background-color: #1b1b1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2e2e2d;
 }
 
 .message.typing .messageBody {
