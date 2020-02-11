@@ -129,7 +129,7 @@ $(function() {
       options.fade = true;
     }
     if (typeof options.prepend === 'undefined') {
-      options.prepend = false;
+      options.prepend = true;
     }
 
     // Apply options
@@ -141,7 +141,7 @@ $(function() {
     } else {
       $messages.append($el);
     }
-    $messages[0].scrollTop = $messages[0].scrollHeight;
+    //$messages[0].scrollTop = $messages[0].scrollHeight;
   }
 
   // Prevents input from having injected markup
