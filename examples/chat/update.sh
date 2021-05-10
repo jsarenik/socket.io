@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rsync -av --delete . hd:web/chat/
+rsync -av --delete . singer:web/chat/
